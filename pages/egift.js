@@ -9,7 +9,6 @@ export default function Egift() {
 
     const [ open, setOpen ] = useState(false);
 
-    console.log(open)
     const toggleGiftOpen = () => {
         setOpen((isOpen) => !isOpen);
     }

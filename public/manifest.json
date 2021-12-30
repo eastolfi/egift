@@ -1,11 +1,11 @@
 {
-    "name": "next-pwa",
-    "short_name": "next-pwa",
+    "name": "Regalo Digital",
+    "short_name": "e-gift",
     "display": "standalone",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "/",
+    "start_url": "/egift",
     "icons": [
         {
             "src": "/icons/android-chrome-192x192.png",
