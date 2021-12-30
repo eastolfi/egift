@@ -1,4 +1,6 @@
-module.exports = {
+const withPwa = require('next-pwa');
+
+module.exports = withPwa({
     reactStrictMode: true,
     async redirects() {
         return [
@@ -9,4 +11,7 @@ module.exports = {
             },
         ];
     },
-};
+    pwa: {
+        dest: 'public',
+    },
+});
